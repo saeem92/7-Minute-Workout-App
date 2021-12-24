@@ -7,6 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 // Created By Saeem
+    // It's a workout app
     /**
      * This method is auto created by Android when the Activity Class is created.
      */
