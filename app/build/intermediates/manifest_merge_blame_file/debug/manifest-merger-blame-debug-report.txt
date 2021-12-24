@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sevenminuteworkout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:6:5-51:19
+12        android:allowBackup="false"
+12-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:7:9-36
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.2.0] /Users/saeem/.gradle/caches/transforms-2/files-2.1/6c0044a99f91be826ffee75cdd447424/core-1.2.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:12:9-40
+21        <activity
+21-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:14:9-24:20
+22            android:name="com.sevenminuteworkout.MainActivity"
+22-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:15:13-41
+23            android:label="@string/app_name"
+23-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:16:13-45
+24            android:screenOrientation="portrait"
+24-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:17:13-49
+25            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+25-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:18:13-69
+26            <intent-filter>
+26-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:20:17-69
+27-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:22:17-77
+29-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:26:9-29:72
+33            android:name="com.sevenminuteworkout.ExerciseActivity"
+33-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:27:13-45
+34            android:screenOrientation="portrait"
+34-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:28:13-49
+35            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+35-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:29:13-69
+36
+37        <!--
+38        This tag is already added by default when you create an activity along with the layout file.
+39        You just need add some extra attribute as per requirement.
+40        -->
+41        <activity
+41-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:33:9-36:72
+42            android:name="com.sevenminuteworkout.FinishActivity"
+42-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:34:13-43
+43            android:screenOrientation="portrait"
+43-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:35:13-49
+44            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+44-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:36:13-69
+45
+46        <!--
+47        This tag is already added by default when you create an activity along with the layout file.
+48        You just need add some extra attribute as per requirement.
+49        -->
+50        <activity
+50-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:40:9-43:72
+51            android:name="com.sevenminuteworkout.BMIActivity"
+51-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:41:13-40
+52            android:screenOrientation="portrait"
+52-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:42:13-49
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:43:13-69
+54
+55        <!--
+56        This tag is already added by default when you create an activity along with the layout file.
+57        You just need add some extra attribute as per requirement.
+58        -->
+59        <activity
+59-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:47:9-50:72
+60            android:name="com.sevenminuteworkout.HistoryActivity"
+60-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:48:13-44
+61            android:screenOrientation="portrait"
+61-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:49:13-49
+62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+62-->/Users/saeem/Downloads/7MinutesWorkout_v23/app/src/main/AndroidManifest.xml:50:13-69
+63    </application>
+64
+65</manifest>
