@@ -35,8 +35,8 @@ class HistoryActivity : AppCompatActivity() {
         val allCompletedDatesList =
             dbHandler.getAllCompletedDatesList() // List of history table data
 
-        // TODO(Step 3 : Now here the dates which were printed in log.
-        //  We will pass that list to the adapter class which we have created and bind it to the recycler view.)
+        //
+        //
         // START
         if (allCompletedDatesList.size > 0) {
             // Here if the List size is greater then 0 we will display the item in the recycler view or else we will show the text view that no data is available.
